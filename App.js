@@ -10,3 +10,4 @@ const container = React.createElement('div', {
 }, [heading,heading1, heading2])
 const root = ReactDOM.createRoot(document.getElementById('root'))
 root.render(container)
+console.log('amit')
