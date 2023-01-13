@@ -1,3 +1,19 @@
-.ravi{
-    border:thick solid green;
+.header{
+    /* border: 3px solid saddlebrown; */
+    display: flex;
+    justify-content: space-between  ;
+    align-items: center;
+    margin: 10px;
+}
+
+.logo{
+    width: 100px;
+}
+
+.nav-items > ul {
+    list-style-type: none;
+    display: flex;
+}
+.nav-items > ul>li {
+   padding: 10px;
 }
