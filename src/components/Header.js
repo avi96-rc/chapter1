@@ -18,7 +18,7 @@ const Header = () => {
   );
 };
 
-export const Title = () => (
+const Title = () => (
   <a href="/">
     <img
       className="logo"
