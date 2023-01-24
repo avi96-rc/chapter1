@@ -1,5 +1,4 @@
 import ResturantCard from "./ResturantCard";
-import { resturantList } from "../services/resturantList";
 import { useState } from "react";
 // import { useState } from "react";
 import { useEffect } from "react";
@@ -52,7 +51,7 @@ const Body = () => {
   if(filteredResturants.length === 0 ) return(
     <h1>no resturants match your filter!</h1>
   )
-  
+
   return AllResturants.length === 0 ? (
     <ShimmerUi />
   ) : (
